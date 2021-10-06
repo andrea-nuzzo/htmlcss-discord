@@ -97,16 +97,16 @@ nav ul li:hover{
 
 /* <--- MAIN ---> */
 
-main section img, .item-text{
+main section.mediate img, .stuck-text{
     float: left;
     width: calc(100% / 2);
 }
 
-main section img{
+main section.mediate img{
     margin-top: 65px
 }
 
-.item-text{
+.stuck-text{
     margin-top: 100px;
 }
 
@@ -120,14 +120,29 @@ main p{
     margin-top: 20px;
 }
 
-main p, main h2{
+main section.mediate p, main section.mediate h2{
     width: 200px;
     margin-left: 200px ;
     color: #23272a ;
 }
 
+.mediate, .free{
+    margin-top: 200px;
+}
 
+.free{
+    color: #23272a ;
+    text-align: center;
+}
 
+.free h2, .free p{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.free h3{
+    margin-bottom: 40px;
+}
 
 /* <--- BUTTON ---> */
 
@@ -166,8 +181,20 @@ main p, main h2{
 
 
 .btn-blue{
-
+    background-color: #5865f2;
+    color: white;
+    border-radius: 2em;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: box-shadow, color;
+    transition-duration: 1s;
 }
+
+.btn-blue:hover{
+    background-color:#6974f0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 
 .big{
     padding: 15px 20px;
@@ -235,3 +262,4 @@ main p, main h2{
    
 }
  */
+
