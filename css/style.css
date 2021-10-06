@@ -144,6 +144,81 @@ main section.mediate p, main section.mediate h2{
     margin-bottom: 40px;
 }
 
+
+
+
+
+/* <--- FOOTER ---> */
+
+footer{
+    margin-top: 100px;
+    background-color: #23272a;
+ }
+ .top-footer{
+     margin: 0 auto;
+ }
+
+ .list-footer{
+    width: calc(100% / 5);
+    float: left;
+ }
+
+ footer ul{
+     margin-top: 50px;
+ }
+
+ footer li{
+    font-size: 10px;
+    font-weight: 500;
+    color: white;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+footer li:first-child{
+    color: #5865f2 ;
+}
+
+footer li a{
+    text-decoration: none;
+}
+footer li a:visited{
+    color: white;
+}
+
+footer li:first-child a:visited {
+    color: #5865f2 ;
+}
+.list-footer h3{
+    color: #5865f2 ;
+    font-size: 25px;
+    margin-top: 45px;
+
+}
+span img{
+    width: 20px;
+}
+span{
+    display: inline-block;
+    margin-top: 15px;
+    color: white;
+    font-size: 10px;
+}
+
+.social ul{
+    margin-top: 10px;
+}
+.social li{
+    display: inline-block;
+    
+}
+
+.social li a {
+    font-size: 20px;
+    margin-right: 10px;
+    text-align: center;
+}
+
 /* <--- BUTTON ---> */
 
 .btn-white{
@@ -263,3 +338,20 @@ main section.mediate p, main section.mediate h2{
 }
  */
 
+
+
+ /* .debug footer{
+    height:  600px;
+ }
+
+ .debug .top-footer{
+     background-color: red;
+     height: 400px;
+ }
+
+ .debug .list-footer{
+     width: calc(100% / 5);
+     float: left;
+    background-color: blue;
+    height: 100px;
+} */
