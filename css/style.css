@@ -5,3 +5,60 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* <--- HEADER ---> */
+
+header{
+    height: 80px;
+}
+
+#logo, #log-in{
+    float: left;
+    width: 20%;
+}
+
+nav{
+    float: left;
+    width: 60%;
+}
+
+
+/* <--- DEBUG ---> */
+.debug header{
+    background-color: #3b63d8;
+}
+
+/* .debug .container{
+    background-color: blueviolet;
+    height: 100%;
+} */
+
+.debug #logo{
+    background-color: chartreuse;
+    height: 80px;
+    border: 1px solid black;
+}
+
+.debug nav{
+    background-color: palevioletred;
+    height: 80px;
+    border: 1px solid black;
+}
+
+.debug #log-in{
+    background-color: rgb(0, 247, 255);
+    height: 80px;
+    border: 1px solid black;
+}
