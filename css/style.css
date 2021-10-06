@@ -7,7 +7,7 @@
 }
 
 .container{
-    width: 60%;
+    width: 75%;
     margin: 0 auto;
     max-width: 1170px;
 }
@@ -22,36 +22,92 @@
 
 header{
     height: 80px;
+    background-color:#3b63d8 ;
+    line-height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo img{
+    width: 50%;
+    vertical-align: middle;
 }
 
 #logo, #log-in{
     float: left;
     width: 20%;
+    text-align: center;
 }
 
 nav{
     float: left;
     width: 60%;
+    text-align: center;
 }
 
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none ;
+    color: white;
+    margin: 0 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+nav ul li:hover{
+    text-decoration: underline;
+    color:white;
+}
+
+/* <--- BUTTON ---> */
+
+.btn-white{
+    color: black;
+    background-color: white;
+    border-radius: 2em;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: box-shadow, color;
+    transition-duration: 1s;
+}
+
+.btn-white:hover{
+    color: #3b63d8;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#log-in .btn-white{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.btn-black{
+
+}
+
+.btn-blue{
+
+}
 
 /* <--- DEBUG ---> */
-.debug header{
-    background-color: #3b63d8;
-}
+
+/* .debug header{
+    background-color: #3b63d8; 
+} */
 
 /* .debug .container{
     background-color: blueviolet;
     height: 100%;
 } */
 
-.debug #logo{
+/* .debug #logo{
     background-color: chartreuse;
     height: 80px;
     border: 1px solid black;
-}
+} */
 
-.debug nav{
+/* .debug nav{
     background-color: palevioletred;
     height: 80px;
     border: 1px solid black;
@@ -61,4 +117,4 @@ nav{
     background-color: rgb(0, 247, 255);
     height: 80px;
     border: 1px solid black;
-}
+} */
