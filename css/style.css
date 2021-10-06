@@ -156,6 +156,7 @@ footer{
  }
  .top-footer{
      margin: 0 auto;
+     height: 320px;
  }
 
  .list-footer{
@@ -217,6 +218,27 @@ span{
     font-size: 20px;
     margin-right: 10px;
     text-align: center;
+}
+
+.bottom-footer{
+    height: 80px;
+    border-top: 1px solid #5865f2;
+}
+
+#bottom-logo{
+    float: left;
+    line-height: 80px;
+}
+
+#bottom-logo img{
+    width: 100px;
+    vertical-align: middle;
+}
+
+#sign-in{
+    float: right;
+    line-height: 80px;
+    font-size: 10px;
 }
 
 /* <--- BUTTON ---> */
@@ -355,3 +377,6 @@ span{
     background-color: blue;
     height: 100px;
 } */
+
+
+
