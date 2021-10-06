@@ -18,13 +18,16 @@
     clear: both;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* <--- HEADER ---> */
 
 header{
     height: 80px;
-    background-color:#3b63d8 ;
+    background-color:#255ee9 ;
     line-height: 80px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 #logo img{
@@ -60,6 +63,72 @@ nav ul li:hover{
     color:white;
 }
 
+/* <--- JUMBOTRON ---> */
+
+#jumbotron{
+    background-image: url('../img/jumbo.png');
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    
+}
+
+#jumbotron .jumbo-text{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+#jumbotron .jumbo-text h1{
+    font-size: 50px;
+}
+
+#jumbotron .jumbo-text p{
+    font-size: 18px;
+    line-height: 1.6;
+    display: inline-block;
+    margin: 40px 0 30px 0;
+}
+
+/* <--- MAIN ---> */
+
+main section img, .item-text{
+    float: left;
+    width: calc(100% / 2);
+}
+
+main section img{
+    margin-top: 65px
+}
+
+.item-text{
+    margin-top: 100px;
+}
+
+main h2 {
+    font-size: 26px;
+}
+
+main p{
+    font-size: 12px;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+main p, main h2{
+    width: 200px;
+    margin-left: 200px ;
+    color: #23272a ;
+}
+
+
+
+
 /* <--- BUTTON ---> */
 
 .btn-white{
@@ -73,23 +142,44 @@ nav ul li:hover{
 }
 
 .btn-white:hover{
-    color: #3b63d8;
+    color: #255ee9;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+.btn-black{
+    color: white;
+    background-color: black;
+    border-radius: 2em;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: box-shadow, color;
+    transition-duration: 1s;
+}
+
+.btn-black:hover{
+    background-color:#23272a;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+.btn-blue{
+
+}
+
+.big{
+    padding: 15px 20px;
 }
 
 #log-in .btn-white{
     font-size: 12px;
     font-weight: 500;
 }
-
-.btn-black{
-
+#jumbotron .btn-white{
+    margin-right: 20px;
 }
-
-.btn-blue{
-
-}
-
 /* <--- DEBUG ---> */
 
 /* .debug header{
@@ -118,3 +208,30 @@ nav ul li:hover{
     height: 80px;
     border: 1px solid black;
 } */
+
+/* .debug #jumbotron{
+    border: 1px solid black;
+} */
+
+/* .debug .jumbo-text{
+    border: 1px solid black;
+} */
+
+/* .debug .item-text {
+   
+    background-color: red;
+    border: 1px solid black;
+
+} 
+
+.debug .img-plus-text {
+    border: 1px solid black;
+    background-color: grey;
+  
+}
+
+.debug main section img {
+    border: 1px solid black;
+   
+}
+ */
