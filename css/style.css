@@ -146,6 +146,9 @@ main section.mediate p, main section.mediate h2{
 
 
 
+.grey{
+}
+
 
 
 /* <--- FOOTER ---> */
@@ -182,6 +185,7 @@ footer li:first-child{
 
 footer li a{
     text-decoration: none;
+    color: white;
 }
 footer li a:visited{
     color: white;
